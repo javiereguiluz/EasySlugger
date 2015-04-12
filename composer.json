@@ -1,0 +1,15 @@
+{
+    "name"        : "javiereguiluz/slugger",
+    "description" : "A fast and easy to use slugger with full UTF-8 support.",
+    "license"     : "MIT",
+    "type"        : "library",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": { "EasySlugger\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "EasySlugger\\Tests\\": "tests/" }
+    }
+}
