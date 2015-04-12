@@ -12,7 +12,7 @@ Add this library as a dependency of your project using [Composer](https://getcom
 
 ```bash
 $ cd your-project/
-$ composer require javiereguiluz/easyslugger
+$ composer require javiereguiluz/slugger
 ```
 
 Generating slugs
