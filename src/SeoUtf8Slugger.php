@@ -32,7 +32,7 @@ class SeoUtf8Slugger extends SeoSlugger implements SluggerInterface
      */
     public static function slugify($string, $separator = null)
     {
-        $separator = (null !== $separator) ? $separator : ((null != self::$separator) ? self::$separator : '-');
+        $separator = (null !== $separator) ? $separator : ((null !== self::$separator) ? self::$separator : '-');
         $string = self::expandString($string);
 
         $slug = trim(strip_tags($string));
@@ -52,7 +52,7 @@ class SeoUtf8Slugger extends SeoSlugger implements SluggerInterface
      */
     public static function uniqueSlugify($string, $separator = null)
     {
-        $separator = (null !== $separator) ? $separator : ((null != self::$separator) ? self::$separator : '-');
+        $separator = (null !== $separator) ? $separator : ((null !== self::$separator) ? self::$separator : '-');
         $string = self::expandString($string);
 
         $slug = self::slugify($string, $separator);
