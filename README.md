@@ -1,6 +1,9 @@
 EasySlugger
 ===========
 
+[![Build Status](https://travis-ci.org/javiereguiluz/EasySlugger.svg?branch=master)](https://travis-ci.org/javiereguiluz/EasySlugger)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/43bd538c-0592-4fcf-8b1e-b3f9a6e67585/mini.png)](https://insight.sensiolabs.com/projects/43bd538c-0592-4fcf-8b1e-b3f9a6e67585)
+
 **EasySlugger** is a fast PHP library to generate slugs, which allow to
 safely include any string as part of an URL. Slugs are commonly used for CMS,
 blogs and other content-related platforms.
