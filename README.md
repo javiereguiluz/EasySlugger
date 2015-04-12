@@ -88,7 +88,7 @@ transliterator:
 use EasySlugger\Utf8Slugger;
 
 $slug = Utf8Slugger::slugify('日本語');  // slug = ri-ben-yu
-$slug = Utf8Slugger::slugify('العَرَبِيةُ‎‎');  // slug = alrbyt
+$slug = Utf8Slugger::slugify('العَرَبِيةُ‎‎');    // slug = alrbyt
 $slug = Utf8Slugger::slugify('עברית');  // slug = bryt
 ```
 
@@ -163,7 +163,7 @@ Tests
 The library is fully unit tested. If you have [PHPUnit](http://phpunit.de/) 
 installed, execute `phpunit` command to run the complete test suite:
 
-```
+```bash
 $ cd easyslugger/
 $ composer install
 $ phpunit
