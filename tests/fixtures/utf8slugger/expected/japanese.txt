@@ -17,7 +17,7 @@ zuo-lun-ji-si-guan-zeng-xi-gan-te-qing-tou-shi-bian-da-nan
 ji-si-ge-shi-dao-zhi-liang-chao-ge-si-shi-que-cun-ti-yun
 zhong-ju-guo-xi-shi-jian-tai-guang-rong-bi-ying-yan-dian-sui-zhu
 zheng-tan-neng-wu-zai-wei-zhi-qi-zhen-liu-ge-you-yi-kou-guo
-ju-shao-fang-shui-jian-teng-ding-chang-xiao-liao-ze-cai-zhuang-gong-jian
+ju-shao-fang-shui-jian-teng-ting-chang-xiao-liao-ze-cai-zhuang-gong-jian
 yu-qiu-ying-kong-zhi-zheng-tu-yu-ji-zhi-song-yuan-gong-ke-yi
 gou-mu-ge-wen-shen-fei-fu-shi-qie-you-shuo-zhuan-shi-bi-nan
 fang-bu-che-you-fu-yan-shou-duan-jing-he-nan-shi-zu-wei-xiao
@@ -49,7 +49,7 @@ xi-xian-lai-liao-jue-ji-sheng-chuan-bei-jun-yi-tu-ya-yun-xu
 huang-lin-ta-yi-shu-ba-huai-zhai-bian-shen-liu-zui-ting-xing-bao
 lu-yu-yuan-yi-bo-chuang-zhang-ji-jin-ju-dai-yan-yu-nu-gu
 dou-jing-ze-zang-luan-bi-pu-san-si-kang-ce-li-yang-jing-shan
-dai-hun-hou-xi-ling-tong-cu-po-e-cheng-fu-huo-beng-shun-ji
+dai-hun-hou-xi-ling-tong-zu-po-e-cheng-fu-huo-beng-shun-ji
 ting-tuo-lu-jue-ji-xing-yan-lian-ya-zhi-dao-le-ting-bo-cheng
 huan-di-deng-jiu-zhi-ceng-ban-lao-ling-jiao-luo-sun-fang-mu-qu
 che-li-fan-xue-mi-ting-tu-cuo-fo-ji-zhu-huo-zhi-hun-zai
@@ -102,7 +102,7 @@ tian-han-guan-xie-tong-jing-cong-lang-ya-lan-zha-tan-xun-mo-chou
 zi-shi-shu-wen-xie-fen-zhao-lan-yi-ya-ta-yan-ping-yu-zhu
 shang-fu-diao-xiao-wen-xian-qiao-mao-yuan-zhao-qi-diao-fou-qiu-zhuang
 zhi-ge-zhi-su-li-yu-zheng-jia-zao-jia-xiao-gui-shu-ji-zhi
-xue-jian-zi-huan-zhu-zhen-shi-geng-ba-jian-cheng-shu-yang-dun-chi
+xue-jian-zi-huan-zhu-ji-shi-geng-ba-jian-cheng-shu-yang-dun-chi
 gang-ji-zheng-sui-yao-jia-qian-hou-tan-yu-jun-lian-chao-ni-pin
 qin-ban-yuan-peng-jie-ku-zai-lang-ji-chen-yu-ou-xia-fu-deng
 bai-xin-mo-qi-su-mo-xie-jing-shi-mai-mo-zhen-dong-lu-lie
@@ -110,8 +110,8 @@ na-ou-shen-feng-you-pu-ting-xing-chun-di-tong-bi-dao-guai-li
 ci-jiu-chai-wei-zui-xi-huo-jia-run-dao-fa-wei-gai-fu-sang
 gui-sui-hu-pen-jin-sui-zhuang-di-ji-bang-yi-lei-chi-ban-die
 huang-yu-tong-cun-guo-ji-niao-xiong-tu-yan-ying-bin-lu-fu-tao
-zhong-han-ji-zhu-hong-ci-mi-kun-cu-ding-ya-kao-zhuang-san-dui
-qi-ning-zhuo-xun-ren-pan-mao-dai-ru-liao-you-feng-ta-fei-qian
+zhong-han-ji-zhu-hong-ci-mi-kun-cu-ding-ya-kao-zhuang-san-dun
+qi-ning-zhuo-xun-ren-pan-mao-dai-ru-liao-you-peng-ta-fei-qian
 zhu-ning-miao-shou-ai-tiao-hui-jiang-guo-chui-she-cheng-feng-seng-ji
 tiao-tang-gen-wu-fan-qi-zheng-lu-long-yuan-gou-gong-yi-shui-cuo
 bo-mao-ti-gu-shi-ling-wu-hun-ku-bi-chuan-fei-bo-e-shen
@@ -126,7 +126,7 @@ tai-jiao-fen-tun-zhe-fei-liu-she-cuo-xie-qie-pao-rui-you-kai
 fang-hen-fang-fu-hu-wu-ji-zhuo-ben-dou-lan-pu-xun-xiao-bo
 xiu-qiao-xiang-qin-mao-fan-sha-fu-tan-mei-ji-chan-zhu-dong-po
 fu-die-cha-xiang-lan-chui-tan-yan-shi-jiang-juan-pei-pou-pu-yu
-you-shu-fan-xiao-jiu-jie-nan-di-gai-qi-ling-nu-shui-ding-quan
+you-shu-fan-xiao-jiu-jie-nan-di-jie-qi-ling-nu-shui-ding-quan
 xiang-qian-zhuo-shi-chi-gu-du-zhao-ke-jia-an-liu-fan-zou-shu
 ci-heng-kan-xu-cu-yin-di-hen-ling-xiu-shen-qiao-cui-yao-pi
 pa-lian-su-an-chong-qi-jia-pi-yu-yin-zhuo-jiao-nai-zhou-tun
@@ -138,7 +138,7 @@ gu-wu-lan-qiao-zei-zha-yan-jiu-pan-liao-bei-kong-ju-shu-lu
 gui-kao-song-niang-yuan-xun-du-xi-weng-yi-lian-ya-jin-tong-yong
 xin-yao-bao-chou-wei-pian-sheng-ci-feng-xun-fan-ba-zhen-zhen-he
 pu-duo-jing-zu-gui-leng-mou-zhan-shen-xi-ren-ju-wo-xu-mu
-miao-yao-fei-ba-jiao-mou-qiu-kui-sou-hong-hong-mi-wu-jiu-jian
+miao-yao-fei-ba-jiao-mou-qiu-kui-sou-hong-hong-mi-yu-jiu-jian
 feng-zheng-ti-an-shan-wen-kui-e-zao-wan-lu-meng-yan-lang-di
 zhou-zhan-jian-wan-yue-yao-yuan-qing-chuan-yi-xia-si-tu-chang-zhong
 su-yan-yun-zhui-zhi-shuang-bing-lu-xiao-mu-zhu-chi-qin-xing-jia
@@ -149,10 +149,10 @@ ao-yan-tie-ci-tong-zong-gu-bi-an-niao-wan-xuan-ti-na-ban
 lian-cou-feng-sun-duo-zhu-ke-huan-zhong-zhu-chi-xi-ai-e-xu
 fan-long-fu-zhao-gao-chu-chang-zhuan-jiao-yi-wei-pai-dang-xuan-you
 jiang-zhang-yao-dai-chi-zhi-wo-ai-chong-ru-qiang-xiao-xiang-wang-dun
-dan-xiu-shan-rou-fu-zhuo-can-hao-xi-ca-cang-er-liang-shi-zhou
+dan-xiu-shan-rou-fu-zhuo-can-hao-xi-ca-cang-er-liang-zhi-zhou
 guan-tie-zou-quan-hui-peng-ban-zhi-zhi-zheng-tan-hu-kai-hui-teng
 dong-jian-zun-ji-pin-zi-luo-ti-zhai-chou-hu-jue-xin-shu-si
-wei-ye-qi-xi-xuan-kou-ji-shuo-cai-xi-zhong-chou-ga-yi-zi
+wei-ye-qi-xi-xuan-kou-ji-shuo-cai-xi-zhong-chou-jia-yi-zi
 ming-mu-chao-hang-yu-mian-dai-shuang-ju-li-duo-zuo-zhen-man-que
 hu-wang-wei-yi-xian-meng-xiang-wai-ming-cai-yi-liu-jiu-cao-chu
 qiang-jiao-yun-zhen-meng-fan-tun-hou-dui-ming-lu-bin-shi-li-shu
