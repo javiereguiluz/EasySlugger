@@ -27,7 +27,7 @@ class Utf8Slugger implements SluggerInterface
             throw new \RuntimeException('Unable to use Utf8Slugger (it requires PHP >= 5.4.0 and intl >= 2.0 extension).');
         }
 
-        self::$separator = (null !== $separator) ? $separator : '-';
+        self::$separator = $separator ?: '-';
     }
 
     /**
@@ -35,7 +35,7 @@ class Utf8Slugger implements SluggerInterface
      */
     public static function slugify($string, $separator = null)
     {
-        $separator = (null !== $separator) ? $separator : ((null !== self::$separator) ? self::$separator : '-');
+        $separator = $separator ?: (self::$separator ?: '-');
 
         $slug = trim(strip_tags($string));
         $slug = transliterator_transliterate(
@@ -54,7 +54,7 @@ class Utf8Slugger implements SluggerInterface
      */
     public static function uniqueSlugify($string, $separator = null)
     {
-        $separator = (null !== $separator) ? $separator : ((null !== self::$separator) ? self::$separator : '-');
+        $separator = $separator ?: (self::$separator ?: '-');
 
         $slug = self::slugify($string, $separator);
         $slug .= $separator.substr(md5(mt_rand()), 0, 7);
