@@ -6,9 +6,6 @@
     "require": {
         "php": ">=5.3.3"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^5.7"
-    },
     "autoload": {
         "psr-4": { "EasySlugger\\": "src/" }
     },
