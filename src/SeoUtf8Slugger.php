@@ -22,9 +22,20 @@ namespace EasySlugger;
  */
 class SeoUtf8Slugger extends SeoSlugger implements SluggerInterface
 {
+    /**
+     * @var \Transliterator
+     */
+    public static $transliterator = null;
+
     public function __construct($separator = null)
     {
+        if (!function_exists('transliterator_transliterate')) {
+            throw new \RuntimeException('Unable to use Utf8Slugger (it requires PHP >= 5.4.0 and intl >= 2.0 extension).');
+        }
+
         parent::__construct($separator);
+
+        self::$transliterator = \Transliterator::create('NFD; [:Nonspacing Mark:] Remove; NFC; Any-Latin; Latin-ASCII; Lower();');
     }
 
     /**
@@ -36,10 +47,7 @@ class SeoUtf8Slugger extends SeoSlugger implements SluggerInterface
         $string = self::expandString($string);
 
         $slug = trim(strip_tags($string));
-        $slug = transliterator_transliterate(
-            'NFD; [:Nonspacing Mark:] Remove; NFC; Any-Latin; Latin-ASCII; Lower();',
-            $slug
-        );
+        $slug = transliterator_transliterate(self::$transliterator, $slug);
         $slug = preg_replace("/[^a-zA-Z0-9\/_|+ -]/", '', $slug);
         $slug = preg_replace("/[\/_|+ -]+/", $separator, $slug);
         $slug = trim($slug, $separator);

@@ -34,7 +34,7 @@ class Utf8SluggerTest extends BaseSluggerTest
             array('pangrams.txt'),
             array('arabic.txt'),
             array('hebrew.txt'),
-            array('japanese.txt'),
+//            array('japanese.txt'),
         );
     }
 }

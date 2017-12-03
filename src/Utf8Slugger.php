@@ -21,6 +21,11 @@ class Utf8Slugger implements SluggerInterface
 {
     protected static $separator;
 
+    /**
+     * @var \Transliterator
+     */
+    public static $transliterator = null;
+
     public function __construct($separator = null)
     {
         if (!function_exists('transliterator_transliterate')) {
@@ -28,6 +33,8 @@ class Utf8Slugger implements SluggerInterface
         }
 
         self::$separator = (null !== $separator) ? $separator : '-';
+
+        self::$transliterator = \Transliterator::create('NFD; [:Nonspacing Mark:] Remove; NFC; Any-Latin; Latin-ASCII; Lower();');
     }
 
     /**
@@ -38,10 +45,7 @@ class Utf8Slugger implements SluggerInterface
         $separator = (null !== $separator) ? $separator : ((null !== self::$separator) ? self::$separator : '-');
 
         $slug = trim(strip_tags($string));
-        $slug = transliterator_transliterate(
-            'NFD; [:Nonspacing Mark:] Remove; NFC; Any-Latin; Latin-ASCII; Lower();',
-            $slug
-        );
+        $slug = transliterator_transliterate(self::$transliterator, $slug);
         $slug = preg_replace("/[^a-zA-Z0-9\/_|+ -]/", '', $slug);
         $slug = preg_replace("/[\/_|+ -]+/", $separator, $slug);
         $slug = trim($slug, $separator);
